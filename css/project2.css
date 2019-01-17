@@ -50,6 +50,7 @@ li{
     text-transform: none;
 }
 .contain-padding{
+    margin-top: 18px;
     padding-top: 20px;
     border-top: 1px solid #b5a8a8;
     padding-left: 0;
@@ -102,4 +103,9 @@ li{
   }
   .fh5co-nav .fh5co-social li a{
     color: #001528;
+  }
+  @media screen and (max-width: 768px){
+    .question-box2{
+        padding: 0;
+    }
   }

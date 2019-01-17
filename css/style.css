@@ -232,6 +232,35 @@ h1, h2, h3, h4{
 .text-lineheight{
   line-height: 50px;
 }
+.desc-last{
+  padding: 100px;
+}
+.case1-righttext-end{
+  left: 100px;
+  top:170px;
+  position: absolute;
+}
+.progress{
+  display: inline-flex;
+  width: 100px;
+}
+.text-progress{
+  display: inline-block;
+}
+.subscription-box{
+  background-color: #f2f2f2;
+  /* box-shadow: 0 31px 35px rgba(0, 0, 0, 0.19); */
+  padding: 3%;
+}
+.subscription-box--margin{
+  margin-right: 15px;
+}
+.subscription-box--float{
+  float: right;
+}
+.text-padding--head{
+  padding-top: 30px!important;
+}
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 20px 0;
@@ -618,8 +647,7 @@ h1, h2, h3, h4{
 }
 @media screen and (max-width: 768px) {
   .work .work-grid .inner {
-    opacity: 1;
-    background: rgba(237, 235, 232, 0.7);
+   display: none;
   }
 }
 .work .work-grid .inner .desc {
@@ -689,7 +717,7 @@ h1, h2, h3, h4{
 }
 @media screen and (max-width: 768px) {
   .intro h4 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 45px;
   }
 }
@@ -1435,6 +1463,84 @@ blockquote .person cite {
   padding: 0;
   margin: 0 0 5px 0;
 }
+.case-display{
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .case1-main{
+    font-size: 25px;
+  }
+  .case-display{
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .case2-padding{
+    padding-left: 70px;
+  }
+  .desc-last p{
+    width: 225px;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .case1-righttext{
+    padding-left: 76px;
+  }
+  .case2-padding{
+    padding-left: 160px;
+  }
+  .main-padding{
+    padding-top: 25px;
+  }
+  .top-line {
+    padding-bottom: 3em;
+  }
+  .case1-mainlast{
+    margin-top: -56px;
+    margin-left: 56px;
+  }
+  .desc-last{
+    padding-top: 160px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fh5co-nav #fh5co-logo{
+    font-size: 12px;
+  }
+  .text-lineheight{
+    font-size: 19px;
+  }
+  .text-responsive{
+    font-size: 22px;
+  }
+  .case1{
+    background-size: 250px !important;
+  }
+  .case2{
+    background-size: 250px !important;
+  }
+  .case1-main {
+    font-size: 19px;
+}
+.case1-righttext{
+  left: 24%;
+}
+.case2-padding{
+  left: 37%;
+}
+.desc-last{
+  padding-top: 132px;
+    padding-bottom: 25px;
+}
+.case1-mainlast{
+  top: -84px;
+  left: 10px;
+  position: absolute;
+}
+.case1-view{
+  font-size: 12px;
+}
+}
 
